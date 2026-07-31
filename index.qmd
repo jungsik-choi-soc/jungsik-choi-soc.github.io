@@ -1,21 +1,54 @@
 ---
 title: "Jungsik Choi"
+title-block-banner: false
 page-layout: full
+toc: false
 ---
 
-# Jungsik Choi
+<div class="home-container">
 
-**Ph.D. Candidate in Sociology and Social Data Analytics**  
+<section class="hero">
+
+<p class="position">
+Ph.D. Candidate in Sociology and Social Data Analytics
+</p>
+
+<p class="affiliation">
 Pennsylvania State University
+</p>
 
-My research investigates a fundamental question: How do modern institutions such as science, nation-states, and democracy, which gained global legitimacy through worldwide cultural and associational processes during the postwar era, come to acquire divergent cultural meanings in contemporary society? 
+<p class="intro">
+My research examines how globally authoritative institutions—including science, democracy, and nation-states—acquire divergent cultural meanings in contemporary society. I use large-scale textual archives, cross-national surveys, and social media data, applying neural embeddings, machine learning, and network analysis.
+</p>
 
-## Research Interests
+<div class="home-buttons">
+<a class="btn btn-primary" href="cv.pdf">Curriculum Vitae</a>
+<a class="btn btn-outline-primary" href="mailto:jqc6639@psu.edu">Email</a>
+</div>
 
-Global and Transnational Sociology · Political Sociology · Cultural Sociology · Computational Social Science
+</section>
 
-## Contact
+<section class="home-section">
 
-Email: [jqc6639@psu.edu](mailto:jqc6639@psu.edu)
+<h2>Research Interests</h2>
 
-[Download CV](cv.pdf)
+<div class="research-tags">
+<span>Global and Transnational Sociology</span>
+<span>Political Sociology</span>
+<span>Cultural Sociology</span>
+<span>Computational Social Science</span>
+</div>
+
+</section>
+
+<section class="home-section">
+
+<h2>Contact</h2>
+
+<p>
+<a href="mailto:jqc6639@psu.edu">jqc6639@psu.edu</a>
+</p>
+
+</section>
+
+</div>
