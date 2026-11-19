@@ -1,64 +1,83 @@
-/* Homepage layout */
+/* Main homepage container */
 
-.home-container {
-  max-width: 900px;
+.about-container {
+  max-width: 1000px;
   margin: 0 auto;
-  padding: 4rem 1.5rem 6rem;
+  padding: 2rem 1.5rem 5rem;
 }
 
-.hero {
-  padding: 1.5rem 0 3rem;
-  border-bottom: 1px solid #e5e7eb;
+
+/* Photo + bio layout */
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 230px 1fr;
+  gap: 3.5rem;
+  align-items: start;
 }
 
-.hero h1 {
-  margin: 0 0 0.8rem;
-  font-size: clamp(2.8rem, 6vw, 4.5rem);
-  font-weight: 700;
-  letter-spacing: -0.04em;
-  line-height: 1.05;
+
+/* Profile photo */
+
+.profile-photo {
+  width: 100%;
+  max-width: 230px;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+  border-radius: 4px;
 }
 
-.position {
-  margin: 0;
-  font-size: 1.25rem;
-  font-weight: 600;
+
+/* Links under photo */
+
+.profile-links {
+  margin-top: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }
 
-.affiliation {
-  margin: 0.25rem 0 1.8rem;
-  font-size: 1.08rem;
-  color: #6c757d;
+.profile-links a {
+  text-decoration: none;
+  font-size: 0.95rem;
 }
 
-.intro {
-  max-width: 780px;
-  margin-bottom: 1.8rem;
-  font-size: 1.12rem;
+.profile-links a:hover {
+  text-decoration: underline;
+}
+
+
+/* Biography */
+
+.bio-column {
+  font-size: 1.05rem;
   line-height: 1.75;
 }
 
-.home-buttons {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.75rem;
+.bio-column p {
+  margin-bottom: 1.25rem;
 }
 
-.home-buttons .btn {
-  padding: 0.65rem 1.1rem;
-  border-radius: 0.4rem;
-  font-weight: 500;
+.intro-first {
+  margin-top: 0;
 }
 
-.home-section {
-  padding-top: 2.4rem;
+
+/* Research interests */
+
+.research-section {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid #e5e7eb;
 }
 
-.home-section h2 {
-  margin-bottom: 1rem;
+.research-section h2 {
   border-bottom: none;
-  font-size: 1.5rem;
+  margin-bottom: 1.2rem;
 }
+
+
+/* Research interest tags */
 
 .research-tags {
   display: flex;
@@ -67,27 +86,37 @@
 }
 
 .research-tags span {
-  padding: 0.5rem 0.85rem;
+  padding: 0.45rem 0.8rem;
   border: 1px solid #dee2e6;
   border-radius: 999px;
   background: #f8f9fa;
-  font-size: 0.95rem;
+  font-size: 0.92rem;
 }
 
-@media (max-width: 600px) {
-  .home-container {
-    padding-top: 2.5rem;
+
+/* Mobile */
+
+@media (max-width: 768px) {
+
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
   }
 
-  .hero h1 {
-    font-size: 2.7rem;
+  .profile-column {
+    text-align: center;
   }
 
-  .position {
-    font-size: 1.1rem;
+  .profile-photo {
+    max-width: 220px;
   }
 
-  .intro {
+  .profile-links {
+    align-items: center;
+  }
+
+  .bio-column {
     font-size: 1rem;
   }
+
 }
