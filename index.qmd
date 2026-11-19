@@ -28,7 +28,7 @@ toc: false
 <div class="bio-column">
 
 <p class="intro-first">
-Hello! I’m Jungsik Choi, a Ph.D. candidate in Sociology and Social Data Analytics at Penn State, where I am advised by <a href="https://www.danieldellaposta.com/" target="_blank">Daniel DellaPosta</a>. I earned my B.A. and M.A. in Sociology from Seoul National University.
+Hello! I’m Jungsik Choi, a Ph.D. candidate in Sociology and Social Data Analytics at Pennsylvania State University, where I am advised by <a href="https://www.danieldellaposta.com/" target="_blank">Daniel DellaPosta</a>. I earned my B.A. and M.A. in Sociology from Seoul National University.
 </p>
 
 <p>
