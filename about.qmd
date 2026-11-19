@@ -1,5 +1,29 @@
 ---
-title: "About"
+title: "Research"
+toc: false
+page-layout: article
 ---
 
-About this site
+## Is Science a World Culture? Restricted Actorhood and Trust in Science
+
+*with Ibrahim Enes Atac*
+
+World polity theorists argue that science attained worldwide authority through the expansion of liberal actorhood in the postwar era. However, we argue that power hierarchies operating between countries, within countries, and at the individual level generate divergent heuristic pathways through which individuals legitimize science. Under restricted conditions of actorhood, science is valued as a pragmatic source of power in the face of threats. By contrast, when such threats are attenuated, science is valued as a form of cultural capital. Using World Values Survey data from 70 countries, we show that trust in science is associated with both restricted and liberal conditions of actorhood. Individuals in fragile states express higher trust in science, whereas in more secure states, the highly educated, the affluent, and urban residents exhibit higher trust. We further find that restricted and liberal conditions of actorhood can combine: marginalized ethnic groups in secure states also exhibit higher trust.
+
+<br>
+
+**Figure 1. State Fragility and Trust in Science**
+
+::: {.text-center}
+![](images/science_fig1.png){width=100%}
+:::
+
+<br>
+
+**Figure 2. Marginal Effect of Urban Elite Status by State Fragility**
+
+::: {.text-center}
+![](images/science_fig2.png){width=72%}
+:::
+
+<hr>
